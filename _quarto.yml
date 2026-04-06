@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Yin Insurance and Financial Services, Inc."
+  favicon: ""
+  navbar:
+    background: "#C8102E"
+    foreground: "#FFFFFF"
+    logo-alt: "Yin Insurance and Financial Services"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: careers.qmd
+        text: Careers
+    right:
+      - icon: telephone-fill
+        text: "(678) 951-8685"
+        href: "tel:6789518685"
+  page-footer:
+    background: "#1B1B1B"
+    foreground: "#CCCCCC"
+    center: |
+      © 2026 Yin Insurance and Financial Services, Inc. · 5380 Peachtree Industrial Blvd Suite 240, Norcross, GA 30071 · (678) 951-8685
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false

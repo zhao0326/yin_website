@@ -1,0 +1,61 @@
+---
+pagetitle: "Careers | Yin Insurance and Financial Services, Inc."
+description: "Join our team at Yin Insurance and Financial Services, Inc. in Norcross, GA. View current job openings."
+---
+
+::: {.careers-hero}
+# Careers
+
+Join our growing team and build a rewarding career in insurance and financial services.
+:::
+
+::: {.job-card}
+::: {.job-card-header}
+## Market Research Analyst
+
+::: {.job-meta}
+[📍 Norcross, GA]{style="margin-right:1.5rem;"} [🕘 Full-Time · Mon–Fri, 9 AM – 5 PM]{style="margin-right:1.5rem;"} [⏱️ 40 hrs/week]{}
+:::
+:::
+
+::: {.job-card-body}
+
+### About the Role
+
+We are seeking a **Market Research Analyst** to join our team at our Norcross, GA office. This role is central to driving data-informed marketing strategy across the insurance and financial services space.
+
+### Responsibilities
+
+- Conduct comprehensive market research and data analysis to evaluate consumer behavior, market trends, and competitive positioning in the insurance and financial services industry.
+- Design and implement both quantitative and qualitative research projects, including customer surveys, focus groups, and service marketing assessments in the digital era.
+- Utilize statistical tools and data visualization techniques to interpret complex marketing data and present clear, actionable insights.
+- Oversee digital marketing and social media campaigns to assess performance metrics, engagement levels, and brand visibility.
+- Collaborate with management to develop marketing strategies, promotional initiatives, and client outreach programs informed by market intelligence.
+- Prepare reports, visual dashboards, and multimedia presentations to communicate marketing findings and recommendations to leadership.
+
+### Qualifications
+
+- **Education:** Master's Degree in Marketing
+- **Required Knowledge Areas:**
+  - Marketing Research
+  - Data Visualization
+  - Digital Marketing
+  - Consumer Behavior
+
+### Schedule & Compensation
+
+- **Hours:** Monday – Friday, 9:00 AM – 5:00 PM (40 hours per week)
+- **Location:** 5380 Peachtree Industrial Blvd, Suite 240, Norcross, GA 30071
+
+::: {.apply-box}
+### How to Apply
+
+Mail your resume to:
+
+**Yin Insurance and Financial Services, Inc.**
+5380 Peachtree Industrial Blvd, Suite 240
+Norcross, GA 30071
+:::
+
+:::
+:::

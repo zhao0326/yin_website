@@ -1,0 +1,280 @@
+/* ── Brand Colors ── */
+:root {
+  --sf-red: #C8102E;
+  --sf-red-dark: #A00D24;
+  --sf-black: #1B1B1B;
+  --sf-white: #FFFFFF;
+  --sf-gray-light: #F5F5F5;
+  --sf-gray: #6C757D;
+  --accent-gold: #D4A843;
+}
+
+/* ── Global ── */
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+/* ── Navbar ── */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.navbar .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
+.navbar .nav-link:hover {
+  opacity: 0.85;
+}
+
+/* ── Hero Section ── */
+.hero-section {
+  background: linear-gradient(135deg, var(--sf-red) 0%, var(--sf-red-dark) 100%);
+  color: var(--sf-white);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+.hero-section .subtitle {
+  font-size: 1.35rem;
+  font-weight: 300;
+  opacity: 0.92;
+  margin-bottom: 2rem;
+}
+.hero-section .btn-hero {
+  display: inline-block;
+  background: var(--sf-white);
+  color: var(--sf-red);
+  padding: 0.85rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+.hero-section .btn-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+}
+
+/* ── Section Containers ── */
+.section-block {
+  padding: 4rem 2rem;
+}
+.section-block.alt-bg {
+  background: var(--sf-gray-light);
+}
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--sf-black);
+  margin-bottom: 0.5rem;
+}
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background: var(--sf-red);
+  margin: 0 auto 2.5rem;
+  border: none;
+  border-radius: 2px;
+}
+
+/* ── Service Cards ── */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.service-card {
+  background: var(--sf-white);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+}
+.service-card .card-icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+.service-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: var(--sf-black);
+}
+.service-card p {
+  font-size: 0.9rem;
+  color: var(--sf-gray);
+  margin: 0;
+}
+
+/* ── Info Columns ── */
+.info-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.info-box {
+  background: var(--sf-white);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+}
+.info-box h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--sf-red);
+  margin-bottom: 1rem;
+}
+.info-box p, .info-box li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+}
+.info-box ul {
+  padding-left: 1.2rem;
+}
+
+/* ── CTA Banner ── */
+.cta-banner {
+  background: linear-gradient(135deg, var(--sf-black) 0%, #2c2c2c 100%);
+  color: var(--sf-white);
+  text-align: center;
+  padding: 3.5rem 2rem;
+}
+.cta-banner h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.cta-banner .btn-cta {
+  display: inline-block;
+  background: var(--sf-red);
+  color: var(--sf-white);
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.cta-banner .btn-cta:hover {
+  background: var(--sf-red-dark);
+}
+
+/* ── Careers Page ── */
+.careers-hero {
+  background: linear-gradient(135deg, var(--sf-black) 0%, #333 100%);
+  color: var(--sf-white);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.careers-hero h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+.careers-hero p {
+  font-size: 1.15rem;
+  opacity: 0.85;
+  max-width: 600px;
+  margin: 0.8rem auto 0;
+}
+
+.job-card {
+  max-width: 840px;
+  margin: -2rem auto 3rem;
+  background: var(--sf-white);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.1);
+  overflow: hidden;
+}
+.job-card-header {
+  background: var(--sf-red);
+  color: var(--sf-white);
+  padding: 1.8rem 2.2rem;
+}
+.job-card-header h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.job-card-header .job-meta {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+.job-card-header .job-meta span {
+  margin-right: 1.5rem;
+}
+.job-card-body {
+  padding: 2.2rem;
+}
+.job-card-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--sf-red);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+.job-card-body h3:first-child {
+  margin-top: 0;
+}
+.job-card-body p, .job-card-body li {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #444;
+}
+.job-card-body ul {
+  padding-left: 1.3rem;
+}
+.job-card-body ul li {
+  margin-bottom: 0.5rem;
+}
+
+.apply-box {
+  background: var(--sf-gray-light);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  margin-top: 2rem;
+  border-left: 4px solid var(--sf-red);
+}
+.apply-box h3 {
+  color: var(--sf-black) !important;
+  margin-top: 0 !important;
+}
+
+/* ── Footer ── */
+.quarto-footer {
+  font-size: 0.85rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero-section h1 { font-size: 2.2rem; }
+  .hero-section .subtitle { font-size: 1.1rem; }
+  .section-title { font-size: 1.6rem; }
+  .careers-hero h1 { font-size: 2rem; }
+  .job-card { margin: -1rem 1rem 2rem; }
+}
